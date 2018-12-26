@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fb2">
+
+    <www.ccb.com.doublefragmentswitch.ContinueSlideScrollView
+        android:id="@+id/sc"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:textColor="#333"
+                android:textSize="30dp"
+                android:text="商\n品\n信\n息" />
+        </RelativeLayout>
+
+    </www.ccb.com.doublefragmentswitch.ContinueSlideScrollView>
+
+
+</FrameLayout>
