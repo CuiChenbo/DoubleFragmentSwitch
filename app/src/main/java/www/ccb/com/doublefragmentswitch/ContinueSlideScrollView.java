@@ -103,7 +103,7 @@ public class ContinueSlideScrollView extends ScrollView {
      */
     private float down,move;
     private boolean isExecute = false; //是否要执行
-    private int TRIGGER_DISTANCE = 160;  //继续滑动效果触发间距 dp
+    public int TRIGGER_DISTANCE = 100;  //继续滑动效果触发间距 dp
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
         switch (ev.getAction()){
