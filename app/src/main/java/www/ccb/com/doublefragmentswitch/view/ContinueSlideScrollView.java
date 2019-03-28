@@ -1,4 +1,4 @@
-package www.ccb.com.doublefragmentswitch;
+package www.ccb.com.doublefragmentswitch.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

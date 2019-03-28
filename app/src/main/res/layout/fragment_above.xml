@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     >
 
-    <www.ccb.com.doublefragmentswitch.ContinueSlideScrollView
+    <www.ccb.com.doublefragmentswitch.view.ContinueSlideScrollView
         android:id="@+id/sc"
         android:fillViewport="true"
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 />
         </RelativeLayout>
 
-    </www.ccb.com.doublefragmentswitch.ContinueSlideScrollView>
+    </www.ccb.com.doublefragmentswitch.view.ContinueSlideScrollView>
 
 
 </FrameLayout>

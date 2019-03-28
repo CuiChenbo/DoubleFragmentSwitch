@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#bff">
-    <www.ccb.com.doublefragmentswitch.ContinueSlideScrollView
+    <www.ccb.com.doublefragmentswitch.view.ContinueSlideScrollView
         android:id="@+id/sc"
         android:fillViewport="true"
         android:layout_width="match_parent"
@@ -22,6 +22,6 @@
                 android:text="商\n品\n详\n情\n" />
         </RelativeLayout>
 
-    </www.ccb.com.doublefragmentswitch.ContinueSlideScrollView>
+    </www.ccb.com.doublefragmentswitch.view.ContinueSlideScrollView>
 
 </FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/viewHead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="我是头"
+        android:background="#9943b2da"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:id="@+id/viewContent"
+        android:layout_below="@id/viewHead"
+        android:layout_above="@id/viewFoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="#4443543f"
+                android:gravity="center"
+                android:text="@android:string/defaultMsisdnAlphaTag"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="#9943543f"
+                android:gravity="center"
+                android:text="@android:string/defaultMsisdnAlphaTag"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/viewFoot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="我是脚"
+        android:layout_alignParentBottom="true"
+        android:background="#9943b2da"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

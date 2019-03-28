@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import www.ccb.com.doublefragmentswitch.view.ContinueSlideScrollView;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -29,6 +31,7 @@ public class BelowFragment extends Fragment {
 
     private void initView(View v) {
         ContinueSlideScrollView scrollView = v.findViewById(R.id.sc);
+//        OverScrollDecoratorHelper.setUpOverScroll(scrollView);
         scrollView.setonContinueSlideListener(s);
     }
 
